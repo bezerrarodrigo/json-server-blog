@@ -1,0 +1,142 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap");
+
+:root {
+  --color-primary: #a276ef;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: 0;
+  -webkit-font-smoothing: antialiased !important;
+}
+
+html,
+body {
+  height: 100vh;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+  color: #333;
+  background: #e0e0e0;
+}
+
+.container {
+  max-width: 960px;
+  padding: 50px 20px;
+  margin: 20px auto;
+}
+
+nav,
+header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+button,
+.post-detail a,
+nav > a {
+  padding: 10px 20px;
+  color: #fff;
+  background-image: linear-gradient(-45deg, var(--color-primary), #4062d0);
+  background-size: 100%;
+  background-size: 120%;
+  background-position: 40% 0;
+  border: none;
+  border-radius: 10px;
+  box-shadow: 0 3px 9px 0 rgb(144 127 249 / 39%);
+  font-size: 18px;
+  font-weight: 600;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.btn-back {
+  color: #333;
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.back-navigation {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+form {
+  max-width: 500px;
+}
+
+input,
+textarea {
+  display: block;
+  margin: 16px 0;
+  padding: 6px 10px;
+  width: 100%;
+  border: 1px solid #ddd;
+  font-family: "Poppins";
+  border-radius: 4px;
+}
+
+textarea {
+  min-height: 200px;
+}
+
+.post {
+  margin-top: 2rem;
+  padding: 20px;
+
+  border-radius: 18px;
+  background: #e0e0e0;
+  box-shadow: 20px 20px 60px #bebebe, -20px -20px 60px #ffffff;
+}
+
+.blogs ul {
+  list-style: none;
+}
+
+.post h2 {
+  color: #4e65d4;
+}
+
+.post a {
+  display: block;
+  margin-top: 1rem;
+  color: var(--color-primary);
+
+  text-decoration: none;
+}
+
+.post-detail {
+  margin-top: 20px;
+}
+
+.post-detail h2 {
+  color: #a276ef;
+  margin-bottom: 10px;
+}
+
+.post-detail p {
+  color: rgb(114, 114, 114);
+  margin-bottom: 10px;
+}
+
+.post-detail p strong {
+  color: var(--color-primary);
+  margin-bottom: 20px;
+  font-size: 1.2rem;
+}
+
+.post-detail div {
+  margin-top: 30px;
+}
+
+.btn-actions {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
